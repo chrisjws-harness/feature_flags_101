@@ -25,7 +25,6 @@ To run the Docker container, follow these steps:
 
 ```
 docker run -p 5000:5000 flask-app --env HARNESS=true
-This will start the Docker container and map port 5000 on the container to port 5000 on the host machine. It will also set the HARNESS environment variable to "true" to enable the feature flag.
 ```
 
 2. Open a web browser and navigate to http://localhost:5000 to see the "Hello, World!" message.
