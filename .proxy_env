@@ -1,0 +1,7 @@
+ACCOUNT_IDENTIFIER=PiiPWk1MQx6PAwpN45mGUg
+ORG_IDENTIFIER=default
+API_KEYS=key1,key2,key3
+ADMIN_SERVICE_TOKEN=service_account_token
+AUTH_SECRET=arbitrary_string
+# OFFLINE=true
+# GENERATE_OFFLINE_CONFIG=true
