@@ -40,3 +40,4 @@ You can progress though this tutorial by switching from main to ff-01, ff-02 ...
 * Add SDK key
 * Add Feature flag `new_ui`
 * Toggle new UI
+* 
