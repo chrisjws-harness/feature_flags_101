@@ -34,3 +34,9 @@ docker run -p 5000:5000 flask-app
 You can progress though this tutorial by switching from main to ff-01, ff-02 ... ff-n
 
 * FF-01 covers your first feature flag
+
+### FF-01
+
+* Add SDK key
+* Add Feature flag `new_ui`
+* Toggle new UI
