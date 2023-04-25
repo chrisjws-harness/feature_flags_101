@@ -17,7 +17,7 @@
     </header>
 
     <main>
-      <h2>Hello {{ name }}!</h2>
+      <h2>{{ greeting|default('Hello') }} {{ name }}!</h2>
       <p>There are several benefits of using feature flags in software development. Here are some of the key reasons why you should use feature flags:</p>
       <ol>
         <li>Incremental Rollouts: Feature flags allow you to gradually release new features to a subset of users, rather than releasing everything all at once. This helps you to reduce the risk of introducing bugs or other issues that could impact the entire user base.</li>

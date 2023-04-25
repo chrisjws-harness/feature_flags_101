@@ -34,9 +34,18 @@ docker run -p 5000:5000 flask-app
 You can progress though this tutorial by switching from main to ff-01, ff-02 ... ff-n
 
 * FF-01 covers your first feature flag
+* FF-02 covers your first multi-variate flag and persona targeting
 
 ### FF-01
 
 * Add SDK key
 * Add Feature flag `new_ui`
 * Toggle new UI
+
+### FF-02 
+* Add Multi-Variate Feature Flag `different_greetings` with variations `Hello`, `What's up`, and `Yo`
+* Add Boolean Feature Flag `personalization`
+* Toggle different greetings
+* Turn on personalization
+* Target your user
+
