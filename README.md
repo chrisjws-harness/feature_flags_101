@@ -24,8 +24,13 @@ To run the Docker container, follow these steps:
 1. Start the Docker container:
 
 ```
-docker run -p 5000:5000 flask-app --env HARNESS=true
+docker run -p 5000:5000 flask-app
 ```
 
 2. Open a web browser and navigate to http://localhost:5000 to see the "Hello, World!" message.
 
+## Working with feature flags
+
+You can progress though this tutorial by switching from main to ff-01, ff-02 ... ff-n
+
+* FF-01 covers your first feature flag
