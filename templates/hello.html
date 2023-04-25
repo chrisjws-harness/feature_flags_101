@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feature Flags</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <header>
+      <h1>Feature Flags</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Hello {{ name }}!</h2>
+      <p>There are several benefits of using feature flags in software development. Here are some of the key reasons why you should use feature flags:</p>
+      <ol>
+        <li>Incremental Rollouts: Feature flags allow you to gradually release new features to a subset of users, rather than releasing everything all at once. This helps you to reduce the risk of introducing bugs or other issues that could impact the entire user base.</li>
+        <li>A/B Testing: Feature flags allow you to conduct A/B testing by enabling different variations of a feature for different groups of users. This enables you to measure the impact of a feature on user engagement, conversion rates, or other metrics before fully releasing it.</li>
+        <li>Easy Rollbacks: Feature flags allow you to quickly and easily disable a feature if it's causing problems, without needing to roll back the entire release.</li>
+        <li>Better Collaboration: Feature flags enable teams to collaborate more effectively by allowing different teams to work on different features independently. This can help to reduce the risk of conflicts and improve productivity.</li>
+        <li>Personalization: Feature flags allow you to create personalized experiences for different groups of users based on their preferences, location, or other attributes.</li>
+      </ol>
+      <p>Overall, feature flags provide greater flexibility and control over the release process, enabling you to deliver better software to your users with minimal risk.</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Harness</p>
+    </footer>
+  </body>
+</html>
