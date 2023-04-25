@@ -54,3 +54,16 @@ You can progress though this tutorial by switching from main to ff-01, ff-02 ...
 * Setup proxy
 * Create a pipeline and attach to a flag
 * Use Harness RBAC & Governance controls
+
+##### Proxy Command
+With mounted config
+
+```commandline
+docker run -i -v /harness/config:/config --env-file .proxy_env harness/ff-proxy
+```
+
+Without mounted config
+
+```commandline
+docker run -i --env-file .proxy_env harness/ff-proxy
+```
