@@ -35,6 +35,7 @@ You can progress though this tutorial by switching from main to ff-01, ff-02 ...
 
 * FF-01 covers your first feature flag
 * FF-02 covers your first multi-variate flag and persona targeting
+* FF-03 covers proxy/offline mode, pipelines, RBAC, and governance
 
 ### FF-01
 
@@ -49,3 +50,7 @@ You can progress though this tutorial by switching from main to ff-01, ff-02 ...
 * Turn on personalization
 * Target your user
 
+### FF-03
+* Setup proxy
+* Create a pipeline and attach to a flag
+* Use Harness RBAC & Governance controls
